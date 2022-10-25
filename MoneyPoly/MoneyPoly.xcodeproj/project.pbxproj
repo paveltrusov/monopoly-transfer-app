@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		90078BEA28FD16A900445CFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90078BE928FD16A900445CFB /* AppDelegate.swift */; };
+		90078BEC28FD16A900445CFB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90078BEB28FD16A900445CFB /* SceneDelegate.swift */; };
+		90078BEE28FD16A900445CFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90078BED28FD16A900445CFB /* ViewController.swift */; };
+		90078BF128FD16A900445CFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90078BEF28FD16A900445CFB /* Main.storyboard */; };
+		90078BF328FD16AD00445CFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90078BF228FD16AD00445CFB /* Assets.xcassets */; };
+		90078BF628FD16AD00445CFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90078BF428FD16AD00445CFB /* LaunchScreen.storyboard */; };
+		90078C0028FD300800445CFB /* PlayerLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90078BFF28FD300800445CFB /* PlayerLabel.swift */; };
+		904F337029069BBB0054C44A /* PlayerButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F336F29069BBB0054C44A /* PlayerButton.swift */; };
+		904F33722906B4A90054C44A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F33712906B4A90054C44A /* Player.swift */; };
+		904F33742906B56B0054C44A /* Transfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F33732906B56B0054C44A /* Transfer.swift */; };
+		904F33772906B6180054C44A /* System utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F33762906B6180054C44A /* System utils.swift */; };
+		904F337A2906C3530054C44A /* Add Player action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F33792906C3530054C44A /* Add Player action.swift */; };
+		904F337C2906C3770054C44A /* OK action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F337B2906C3770054C44A /* OK action.swift */; };
+		904F337E2906C3930054C44A /* Delete Player action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F337D2906C3930054C44A /* Delete Player action.swift */; };
+		904F33822906C3C80054C44A /* Send Transfer Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F33812906C3C80054C44A /* Send Transfer Action.swift */; };
+		904F33842906C3D70054C44A /* Cancel Transfer action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F33832906C3D70054C44A /* Cancel Transfer action.swift */; };
+		904F33862906C5400054C44A /* Player Icon action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F33852906C5400054C44A /* Player Icon action.swift */; };
+		904F33882906C6240054C44A /* Players balance labels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F33872906C6240054C44A /* Players balance labels.swift */; };
+		904F338A2906C8CE0054C44A /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904F33892906C8CE0054C44A /* MenuButton.swift */; };
+		906D9A9929001DE80074478C /* Money transfer logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906D9A9829001DE80074478C /* Money transfer logic.swift */; };
+		906D9A9B2901085A0074478C /* Game utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906D9A9A2901085A0074478C /* Game utils.swift */; };
+		906D9A9D29010C1D0074478C /* Gesture controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906D9A9C29010C1D0074478C /* Gesture controller.swift */; };
+		906D9A9F29010D150074478C /* Players icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906D9A9E29010D150074478C /* Players icons.swift */; };
+		906D9AA329010FB50074478C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906D9AA229010FB50074478C /* Constants.swift */; };
+		906D9AAA29024CE10074478C /* Player Edit View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906D9AA929024CE10074478C /* Player Edit View.swift */; };
+		906D9AAD2903D30D0074478C /* Icons allocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906D9AAC2903D30D0074478C /* Icons allocation.swift */; };
+		906D9AAF2903D35C0074478C /* Icons coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906D9AAE2903D35C0074478C /* Icons coordinates.swift */; };
+		906D9AB42903D78A0074478C /* Graphics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906D9AB32903D78A0074478C /* Graphics.swift */; };
+		909A04082903DB4C003A7BA0 /* Name Input Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A04072903DB4C003A7BA0 /* Name Input Field.swift */; };
+		909A040A2903DBF6003A7BA0 /* OK button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A04092903DBF6003A7BA0 /* OK button.swift */; };
+		909A040C2903E97C003A7BA0 /* DELETE button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A040B2903E97C003A7BA0 /* DELETE button.swift */; };
+		909A04102903EC7D003A7BA0 /* Team View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A040F2903EC7D003A7BA0 /* Team View.swift */; };
+		909A04122903F0DA003A7BA0 /* ADD PLAYER button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A04112903F0DA003A7BA0 /* ADD PLAYER button.swift */; };
+		909A04142903F1A0003A7BA0 /* Setup All Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909A04132903F1A0003A7BA0 /* Setup All Views.swift */; };
+		90B604B12904311400EF978B /* Transfer view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B604B02904311400EF978B /* Transfer view.swift */; };
+		90B604B3290435FD00EF978B /* Picker view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B604B2290435FD00EF978B /* Picker view.swift */; };
+		90C90A382905187F00969FE1 /* SEND button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C90A372905187F00969FE1 /* SEND button.swift */; };
+		90C90A3A29051AF300969FE1 /* CANCEL button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C90A3929051AF300969FE1 /* CANCEL button.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		90078BE628FD16A900445CFB /* MoneyPoly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyPoly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		90078BE928FD16A900445CFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		90078BEB28FD16A900445CFB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		90078BED28FD16A900445CFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		90078BF028FD16A900445CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		90078BF228FD16AD00445CFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		90078BF528FD16AD00445CFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		90078BF728FD16AD00445CFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90078BFF28FD300800445CFB /* PlayerLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerLabel.swift; sourceTree = "<group>"; };
+		904F336F29069BBB0054C44A /* PlayerButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerButton.swift; sourceTree = "<group>"; };
+		904F33712906B4A90054C44A /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		904F33732906B56B0054C44A /* Transfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transfer.swift; sourceTree = "<group>"; };
+		904F33762906B6180054C44A /* System utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "System utils.swift"; sourceTree = "<group>"; };
+		904F33792906C3530054C44A /* Add Player action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add Player action.swift"; sourceTree = "<group>"; };
+		904F337B2906C3770054C44A /* OK action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OK action.swift"; sourceTree = "<group>"; };
+		904F337D2906C3930054C44A /* Delete Player action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Delete Player action.swift"; sourceTree = "<group>"; };
+		904F33812906C3C80054C44A /* Send Transfer Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Send Transfer Action.swift"; sourceTree = "<group>"; };
+		904F33832906C3D70054C44A /* Cancel Transfer action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cancel Transfer action.swift"; sourceTree = "<group>"; };
+		904F33852906C5400054C44A /* Player Icon action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player Icon action.swift"; sourceTree = "<group>"; };
+		904F33872906C6240054C44A /* Players balance labels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Players balance labels.swift"; sourceTree = "<group>"; };
+		904F33892906C8CE0054C44A /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		906D9A9829001DE80074478C /* Money transfer logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Money transfer logic.swift"; sourceTree = "<group>"; };
+		906D9A9A2901085A0074478C /* Game utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game utils.swift"; sourceTree = "<group>"; };
+		906D9A9C29010C1D0074478C /* Gesture controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gesture controller.swift"; sourceTree = "<group>"; };
+		906D9A9E29010D150074478C /* Players icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Players icons.swift"; sourceTree = "<group>"; };
+		906D9AA229010FB50074478C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		906D9AA929024CE10074478C /* Player Edit View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Player Edit View.swift"; sourceTree = "<group>"; };
+		906D9AAC2903D30D0074478C /* Icons allocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Icons allocation.swift"; sourceTree = "<group>"; };
+		906D9AAE2903D35C0074478C /* Icons coordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Icons coordinates.swift"; sourceTree = "<group>"; };
+		906D9AB32903D78A0074478C /* Graphics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graphics.swift; sourceTree = "<group>"; };
+		909A04072903DB4C003A7BA0 /* Name Input Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Name Input Field.swift"; sourceTree = "<group>"; };
+		909A04092903DBF6003A7BA0 /* OK button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OK button.swift"; sourceTree = "<group>"; };
+		909A040B2903E97C003A7BA0 /* DELETE button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DELETE button.swift"; sourceTree = "<group>"; };
+		909A040F2903EC7D003A7BA0 /* Team View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Team View.swift"; sourceTree = "<group>"; };
+		909A04112903F0DA003A7BA0 /* ADD PLAYER button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ADD PLAYER button.swift"; sourceTree = "<group>"; };
+		909A04132903F1A0003A7BA0 /* Setup All Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Setup All Views.swift"; sourceTree = "<group>"; };
+		90B604B02904311400EF978B /* Transfer view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Transfer view.swift"; sourceTree = "<group>"; };
+		90B604B2290435FD00EF978B /* Picker view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Picker view.swift"; sourceTree = "<group>"; };
+		90C90A372905187F00969FE1 /* SEND button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SEND button.swift"; sourceTree = "<group>"; };
+		90C90A3929051AF300969FE1 /* CANCEL button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CANCEL button.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90078BE328FD16A900445CFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90078BDD28FD16A900445CFB = {
+			isa = PBXGroup;
+			children = (
+				90078BE828FD16A900445CFB /* MoneyPoly */,
+				90078BE728FD16A900445CFB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90078BE728FD16A900445CFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90078BE628FD16A900445CFB /* MoneyPoly.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90078BE828FD16A900445CFB /* MoneyPoly */ = {
+			isa = PBXGroup;
+			children = (
+				90078BF728FD16AD00445CFB /* Info.plist */,
+				90078BF228FD16AD00445CFB /* Assets.xcassets */,
+				906D9AA8290243440074478C /* Defaults */,
+				90078BED28FD16A900445CFB /* ViewController.swift */,
+				906D9AA229010FB50074478C /* Constants.swift */,
+				909A04132903F1A0003A7BA0 /* Setup All Views.swift */,
+				904F336E29069B760054C44A /* Data Types */,
+				909A040E2903EC4D003A7BA0 /* Views */,
+				906D9AAB2903D2DE0074478C /* Players icons */,
+				909A040D2903EA59003A7BA0 /* Buttons */,
+				904F33782906C3380054C44A /* Actions */,
+				906D9AB22903D71A0074478C /* Money transfer */,
+				904F33752906B5CA0054C44A /* Utils */,
+			);
+			path = MoneyPoly;
+			sourceTree = "<group>";
+		};
+		904F336E29069B760054C44A /* Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				90078BFF28FD300800445CFB /* PlayerLabel.swift */,
+				904F336F29069BBB0054C44A /* PlayerButton.swift */,
+				904F33892906C8CE0054C44A /* MenuButton.swift */,
+				904F33712906B4A90054C44A /* Player.swift */,
+				904F33732906B56B0054C44A /* Transfer.swift */,
+			);
+			path = "Data Types";
+			sourceTree = "<group>";
+		};
+		904F33752906B5CA0054C44A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				906D9A9A2901085A0074478C /* Game utils.swift */,
+				904F33762906B6180054C44A /* System utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		904F33782906C3380054C44A /* Actions */ = {
+			isa = PBXGroup;
+			children = (
+				904F33792906C3530054C44A /* Add Player action.swift */,
+				904F337B2906C3770054C44A /* OK action.swift */,
+				904F337D2906C3930054C44A /* Delete Player action.swift */,
+				904F33852906C5400054C44A /* Player Icon action.swift */,
+				904F33812906C3C80054C44A /* Send Transfer Action.swift */,
+				904F33832906C3D70054C44A /* Cancel Transfer action.swift */,
+			);
+			path = Actions;
+			sourceTree = "<group>";
+		};
+		906D9AA8290243440074478C /* Defaults */ = {
+			isa = PBXGroup;
+			children = (
+				90078BE928FD16A900445CFB /* AppDelegate.swift */,
+				90078BEB28FD16A900445CFB /* SceneDelegate.swift */,
+				90078BEF28FD16A900445CFB /* Main.storyboard */,
+				90078BF428FD16AD00445CFB /* LaunchScreen.storyboard */,
+			);
+			path = Defaults;
+			sourceTree = "<group>";
+		};
+		906D9AAB2903D2DE0074478C /* Players icons */ = {
+			isa = PBXGroup;
+			children = (
+				906D9A9E29010D150074478C /* Players icons.swift */,
+				904F33872906C6240054C44A /* Players balance labels.swift */,
+				906D9AAE2903D35C0074478C /* Icons coordinates.swift */,
+				906D9AAC2903D30D0074478C /* Icons allocation.swift */,
+			);
+			path = "Players icons";
+			sourceTree = "<group>";
+		};
+		906D9AB22903D71A0074478C /* Money transfer */ = {
+			isa = PBXGroup;
+			children = (
+				906D9A9C29010C1D0074478C /* Gesture controller.swift */,
+				906D9AB32903D78A0074478C /* Graphics.swift */,
+				906D9A9829001DE80074478C /* Money transfer logic.swift */,
+			);
+			path = "Money transfer";
+			sourceTree = "<group>";
+		};
+		909A040D2903EA59003A7BA0 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				909A04072903DB4C003A7BA0 /* Name Input Field.swift */,
+				909A04112903F0DA003A7BA0 /* ADD PLAYER button.swift */,
+				909A04092903DBF6003A7BA0 /* OK button.swift */,
+				909A040B2903E97C003A7BA0 /* DELETE button.swift */,
+				90C90A372905187F00969FE1 /* SEND button.swift */,
+				90C90A3929051AF300969FE1 /* CANCEL button.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		909A040E2903EC4D003A7BA0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				909A040F2903EC7D003A7BA0 /* Team View.swift */,
+				906D9AA929024CE10074478C /* Player Edit View.swift */,
+				90B604B02904311400EF978B /* Transfer view.swift */,
+				90B604B2290435FD00EF978B /* Picker view.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90078BE528FD16A900445CFB /* MoneyPoly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90078BFA28FD16AD00445CFB /* Build configuration list for PBXNativeTarget "MoneyPoly" */;
+			buildPhases = (
+				90078BE228FD16A900445CFB /* Sources */,
+				90078BE328FD16A900445CFB /* Frameworks */,
+				90078BE428FD16A900445CFB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyPoly;
+			productName = MoneyPoly;
+			productReference = 90078BE628FD16A900445CFB /* MoneyPoly.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90078BDE28FD16A900445CFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					90078BE528FD16A900445CFB = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 90078BE128FD16A900445CFB /* Build configuration list for PBXProject "MoneyPoly" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 90078BDD28FD16A900445CFB;
+			productRefGroup = 90078BE728FD16A900445CFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90078BE528FD16A900445CFB /* MoneyPoly */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		90078BE428FD16A900445CFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90078BF628FD16AD00445CFB /* LaunchScreen.storyboard in Resources */,
+				90078BF328FD16AD00445CFB /* Assets.xcassets in Resources */,
+				90078BF128FD16A900445CFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90078BE228FD16A900445CFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904F33882906C6240054C44A /* Players balance labels.swift in Sources */,
+				904F33722906B4A90054C44A /* Player.swift in Sources */,
+				904F33772906B6180054C44A /* System utils.swift in Sources */,
+				904F33822906C3C80054C44A /* Send Transfer Action.swift in Sources */,
+				909A04082903DB4C003A7BA0 /* Name Input Field.swift in Sources */,
+				904F337C2906C3770054C44A /* OK action.swift in Sources */,
+				90078BEE28FD16A900445CFB /* ViewController.swift in Sources */,
+				906D9A9D29010C1D0074478C /* Gesture controller.swift in Sources */,
+				904F337E2906C3930054C44A /* Delete Player action.swift in Sources */,
+				90B604B3290435FD00EF978B /* Picker view.swift in Sources */,
+				904F337A2906C3530054C44A /* Add Player action.swift in Sources */,
+				90078BEA28FD16A900445CFB /* AppDelegate.swift in Sources */,
+				906D9A9929001DE80074478C /* Money transfer logic.swift in Sources */,
+				904F337029069BBB0054C44A /* PlayerButton.swift in Sources */,
+				906D9A9F29010D150074478C /* Players icons.swift in Sources */,
+				906D9AB42903D78A0074478C /* Graphics.swift in Sources */,
+				906D9AAF2903D35C0074478C /* Icons coordinates.swift in Sources */,
+				904F33862906C5400054C44A /* Player Icon action.swift in Sources */,
+				906D9AAA29024CE10074478C /* Player Edit View.swift in Sources */,
+				904F33742906B56B0054C44A /* Transfer.swift in Sources */,
+				906D9AA329010FB50074478C /* Constants.swift in Sources */,
+				904F33842906C3D70054C44A /* Cancel Transfer action.swift in Sources */,
+				90C90A382905187F00969FE1 /* SEND button.swift in Sources */,
+				909A04122903F0DA003A7BA0 /* ADD PLAYER button.swift in Sources */,
+				90B604B12904311400EF978B /* Transfer view.swift in Sources */,
+				909A040A2903DBF6003A7BA0 /* OK button.swift in Sources */,
+				90C90A3A29051AF300969FE1 /* CANCEL button.swift in Sources */,
+				90078BEC28FD16A900445CFB /* SceneDelegate.swift in Sources */,
+				909A04102903EC7D003A7BA0 /* Team View.swift in Sources */,
+				90078C0028FD300800445CFB /* PlayerLabel.swift in Sources */,
+				904F338A2906C8CE0054C44A /* MenuButton.swift in Sources */,
+				909A040C2903E97C003A7BA0 /* DELETE button.swift in Sources */,
+				909A04142903F1A0003A7BA0 /* Setup All Views.swift in Sources */,
+				906D9A9B2901085A0074478C /* Game utils.swift in Sources */,
+				906D9AAD2903D30D0074478C /* Icons allocation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		90078BEF28FD16A900445CFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90078BF028FD16A900445CFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		90078BF428FD16AD00445CFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90078BF528FD16AD00445CFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		90078BF828FD16AD00445CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		90078BF928FD16AD00445CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90078BFB28FD16AD00445CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9G8T5536S4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyPoly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.private.MoneyPoly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		90078BFC28FD16AD00445CFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9G8T5536S4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MoneyPoly/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.private.MoneyPoly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90078BE128FD16A900445CFB /* Build configuration list for PBXProject "MoneyPoly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90078BF828FD16AD00445CFB /* Debug */,
+				90078BF928FD16AD00445CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90078BFA28FD16AD00445CFB /* Build configuration list for PBXNativeTarget "MoneyPoly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90078BFB28FD16AD00445CFB /* Debug */,
+				90078BFC28FD16AD00445CFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90078BDE28FD16A900445CFB /* Project object */;
+}
