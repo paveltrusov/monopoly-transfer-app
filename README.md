@@ -9,6 +9,8 @@ The scenario of use assumes that players mutually uses this app on the iPad on a
 ## Demo
 https://youtu.be/uNtJRZHWEE0
 
+![Screenshot](screenshot.jpg)
+
 
 
 ## For developers
