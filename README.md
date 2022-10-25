@@ -7,6 +7,10 @@ The app allows players to avoid using toy money, which is often printed on ordin
 The scenario of use assumes that players mutually uses this app on the iPad on a table and/or broadcasts on the large TV screen from the iPhone.
 
 ## Demo
+(http://img.youtube.com/vi/uNtJRZHWEE0/0.jpg)]
+(http://www.youtube.com/watch?v=uNtJRZHWEE0 "Video Title")
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uNtJRZHWEE0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
