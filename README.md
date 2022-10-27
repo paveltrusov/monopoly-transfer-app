@@ -1,7 +1,7 @@
 # MoneyPoly
 
 An iOS app for “cashless payments” in board games such as Monopoly.<br>
-The app allows players to avoid using toy money, which is often printed on ordinary cheap paper not meant to be used as real cash. Such "money" is inconvenient to handle, and moreover often takes up a lot of space on the table.
+The app allows players to avoid using toy money, which is often printed on ordinary cheap paper not meant to be used as real cash. Such money is usually inconvenient to handle, and often takes up a lot of space on the table.
 
 ## For users
 The scenario of use assumes that players mutually uses this app on the iPad on a table and/or broadcasts on the large TV screen from the iPhone.
