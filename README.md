@@ -14,7 +14,7 @@ https://youtu.be/uNtJRZHWEE0
 
 
 ## For developers
-The app is created as a pet project, mainly to enhance my developer skills. All elements of the interface are made with code, WITHOUT usage of Storyboard. I did my best to code as clear as possible, all methods and instances are documented, please feel free to use any part of this code to any of your projects.
+The app is created as a pet project, mainly to enhance my developer skills. All elements of the interface are made with code, WITHOUT usage of Storyboard. I did my best to code as clear as possible, all methods and instances are documented, please feel free to use any part of this code in your projects for any purposes.
 
 ## Features
 * Available on iPhone / iPad  both
